@@ -13,7 +13,7 @@ Spend your allotted time to see how far you can get through this exercise. The a
 6. should allow changing of the page list size
 7. should show the next box that the customer will receive
 
-## Task B: Collection of business objects
+### Task B: Collection of business objects
 
 1. Create an implementation (class/module/library) that will deliver boxes to customers ensuring customers do not receive the same contents again.
 
@@ -33,7 +33,7 @@ Spend your allotted time to see how far you can get through this exercise. The a
     [Boxes Endpoint](http://tuskermarvel.com/boxes.json)
     `username: username, password: tuskermarvel`
 
-## Task C: Bonus Points
+### Task C: Bonus Points
 1. Application contains relevant tests
 2. Document design considerations and proper usage
 3. The app should be production ready
