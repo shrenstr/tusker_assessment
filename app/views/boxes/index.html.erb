@@ -1,0 +1,20 @@
+<h1>Available Boxes (next Shipment)</h1>
+
+  <% @boxes.each do |box| %>
+    <div class="box">
+      <p>
+        <strong>Box Code:</strong>
+        <%= box['code'] %>
+      </p>
+      <div class="box_content">
+        <p>
+          <strong>Content:</strong>
+        </p>
+          <% box['contents'].each do |c| %>
+            <div class="content_item">
+               <%= c.to_s %>
+            </div>
+          <% end %>
+      </div>
+    </div>
+  <% end %>

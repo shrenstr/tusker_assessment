@@ -8,6 +8,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <nav id="horzNav">
+    <p>
+      <%= link_to 'Home', root_path %>
+      <%= link_to 'Customers', customers_path %>
+      <%= link_to 'Boxes', boxes_path %>
+    </p>
+  </nav>
+
   <body>
     <%= yield %>
   </body>
