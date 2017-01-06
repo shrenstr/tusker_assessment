@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+#horzNav {
+  display:block;
+  /* Padding Top, Right, Bottom, Left */
+  padding: 10px 20px 10px 10px;
+  background: #f9f9ef;
+}
+
+#horzNav a {
+  text-decoration: none;
+  padding: 0px 0px 0px 20px;
+  font-weight: bold;
+  color: black;
+}
+
+#horzNav a:hover {
+  background-color: fafaed;
+  color: #bfc3c2;
+}
